@@ -1,0 +1,17 @@
+-- CATEGORIES TABLE
+CREATE TABLE FlowerCategories (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL,
+);
+GO
+
+
+--FLOWERS TABLE
+CREATE TABLE Flowers (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(100) NOT NULL,
+    CategoryId INT NOT NULL,
+    Price DECIMAL(5, 2) NOT NULL,
+    Foreign Key (CategoryId) REFERENCES FlowerCategories(Id)
+);
+GO
