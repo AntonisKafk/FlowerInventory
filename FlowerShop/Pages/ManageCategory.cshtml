@@ -1,0 +1,23 @@
+﻿@page "{id:int?}"
+@model FlowerShop.Pages.ManageCategoryModel
+@{
+    ViewData["Title"] = Model.Category.Id == 0 ? "Add New Category" : "Edit Category";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+    <form method="post">
+        <input type="hidden" asp-for="Category.Id" />
+
+        <div class=" mb-3">
+            <label asp-for="Category.Name" class="form-label"></label>
+            <input asp-for="Category.Name" class="form-control" />
+            <span asp-validation-for="Category.Name" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            @(Model.Category.Id == 0 ? "Create" : "Update")
+        </button>
+        <a href="/" class="btn btn-secondary ms-2">Cancel</a>
+    </form>
+</div>

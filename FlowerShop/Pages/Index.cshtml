@@ -20,12 +20,12 @@
                     <div class="card shadow-sm h-100">
                         <div class="card-body">
                             <div class="d-flex justify-content-end mb-2">
-                                <a href="/ManageCategories/@category.Id" class="btn btn-sm btn-outline-secondary me-1">
+                                <a href="/ManageCategory/@category.Id" class="btn btn-sm btn-outline-secondary me-1">
                                     Edit
                                 </a>
-                                <a href="#"
+                                <a href="?handler=DeleteCategory&id=@category.Id"
                                    class="btn btn-sm btn-outline-danger ms-1"
-                                   onclick="deleteCategory(@category.Id, '@category.Name')">
+                                   onclick="return confirm('Are you sure you want to delete @(category.Name)?')">
                                     Delete
                                 </a>
                             </div>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="text-center mb-4">
-            <a href="/ManageCategories" class="btn btn-success">
+            <a href="/ManageCategory" class="btn btn-success">
                 <i class="bi bi-plus-circle"></i> Add New Category
             </a>
         </div>
@@ -64,26 +64,3 @@
         </div>
     }
 </div>
-
-<script>
-    function deleteCategory(id, name){
-        if(confirm('Are you sure you want to delete category ${name}?')) {
-             fetch('?handler=DeleteCategory', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded'
-                },
-                body: 'id=${id}'
-             })
-             .then(Response => {
-                 if(response.ok) {
-                     window.location.reload();
-                 }
-                 else{
-                     alert('Deletion failed..');
-                 }
-             });
-        }
-        return false;
-    }
-</script>

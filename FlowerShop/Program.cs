@@ -1,8 +1,14 @@
 using FlowerShop.Interfaces;
 using FlowerShop.Services;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.ConfigureFilter(new IgnoreAntiforgeryTokenAttribute());
+});
 
 // Add services to the container.
 builder.Services.AddRazorPages();

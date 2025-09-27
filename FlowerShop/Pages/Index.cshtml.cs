@@ -23,17 +23,18 @@ namespace FlowerShop.Pages
             Categories = await _categoryService.GetAllCategoriesAsync();
         }
 
-        public async Task<IActionResult> OnDeleteCategory(int id)
+        public async Task<IActionResult> OnGetDeleteCategory(int id)
         {
             try
             {
-                //await _categoryService.DeleteCategoryAsync(id);
-                return new JsonResult(new { success = true });
+                await _categoryService.DeleteCategoryAsync(id);
+                TempData["Message"] = "Category deleted successfully!";
             }
             catch (Exception)
             {
-                return new JsonResult(new { success = false });
+                Console.WriteLine($"Deletion for category {id} failed..");
             }
+            return RedirectToPage();
         }
     }
 }
