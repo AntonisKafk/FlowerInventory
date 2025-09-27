@@ -1,7 +1,17 @@
+using FlowerShop.Interfaces;
+using FlowerShop.Services;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<FlowerShop.Data.ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("FlowerInventory")));
+
+builder.Services.AddScoped<IFlowerService, FlowerService>();
+builder.Services.AddScoped<IFlowerCategoryService, FlowerCategoryService>();
 
 var app = builder.Build();
 

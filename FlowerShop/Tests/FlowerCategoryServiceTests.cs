@@ -19,8 +19,8 @@ namespace FlowerShop.Tests
             var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<FlowerCategoryService>();
             var service = new FlowerCategoryService(context, logger);
             context.FlowerCategories.AddRange(
-                new FlowerCategory(1, "Roses"),
-                new FlowerCategory(2, "Tulips")
+                new FlowerCategory { Id = 1, Name = "Roses" },
+                new FlowerCategory { Id = 2, Name = "Tulips" }
             );
             context.SaveChanges();
             // ACT
@@ -41,7 +41,7 @@ namespace FlowerShop.Tests
             using var context = new ApplicationDbContext(options);
             var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<FlowerCategoryService>();
             var service = new FlowerCategoryService(context, logger);
-            var newCategory = new FlowerCategory(1, "Daisies");
+            var newCategory = new FlowerCategory { Id = 1, Name = "Daisies" };
             // ACT
             var createdCategory = await service.CreateCategoryAsync(newCategory);
             // ASSERT
@@ -60,7 +60,7 @@ namespace FlowerShop.Tests
             using var context = new ApplicationDbContext(options);
             var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<FlowerCategoryService>();
             var service = new FlowerCategoryService(context, logger);
-            var category = new FlowerCategory(1, "Daisies");
+            var category = new FlowerCategory { Id = 1, Name = "Daisies" };
             context.FlowerCategories.Add(category);
             context.SaveChanges();
             // ACT
@@ -80,7 +80,7 @@ namespace FlowerShop.Tests
             using var context = new ApplicationDbContext(options);
             var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<FlowerCategoryService>();
             var service = new FlowerCategoryService(context, logger);
-            
+
             //ACT AND ASSERT
             Assert.ThrowsAsync<KeyNotFoundException>(async () => await service.DeleteCategoryAsync(999));
         }
@@ -95,7 +95,7 @@ namespace FlowerShop.Tests
             using var context = new ApplicationDbContext(options);
             var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<FlowerCategoryService>();
             var service = new FlowerCategoryService(context, logger);
-            var category = new FlowerCategory(1, "Daisies");
+            var category = new FlowerCategory { Id = 1, Name = "Daisies" };
             context.FlowerCategories.Add(category);
             context.SaveChanges();
             // ACT

@@ -22,6 +22,10 @@ namespace FlowerShop.Data
                 entity.Property(e => e.Name)
                       .IsRequired()
                       .HasMaxLength(100);
+                entity.HasMany(e => e.Flowers)
+                      .WithOne(e => e.Category)
+                      .HasForeignKey(e => e.CategoryId)
+                      .OnDelete(DeleteBehavior.Cascade);
             });
 
             modelBuilder.Entity<Flower>(entity =>
@@ -36,12 +40,6 @@ namespace FlowerShop.Data
                 entity.Property(e => e.Price)
                       .IsRequired()
                       .HasColumnType("decimal(5,2)");
-
-                entity.HasOne<FlowerCategory>()
-                        .WithMany()
-                        .HasForeignKey(e => e.CategoryId)
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
             });
         }
     }

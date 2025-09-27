@@ -69,6 +69,23 @@ namespace FlowerShop.Services
             }
         }
 
+        public async Task<List<FlowerCategory>> GetCategoriesWithFlowersAsync()
+        {
+            try
+            {
+                var categories = await _context.FlowerCategories
+                    .Include(c => c.Flowers)
+                    .ToListAsync();
+                _logger.LogInformation("Retrieved {Count} flower categories with their flowers.", categories.Count);
+                return categories;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error retrieving flower categories with flowers");
+                throw;
+            }
+        }
+
         public async Task<FlowerCategory> GetCategoryByIdAsync(int id)
         {
             try

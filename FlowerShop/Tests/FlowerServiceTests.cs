@@ -20,8 +20,8 @@ namespace FlowerShop.Tests
             var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<FlowerService>();
             var service = new FlowerService(context, logger);
             context.Flowers.AddRange(
-                new Flower(1, "Rose", 1, 2.99m),
-                new Flower(2, "Tulip", 1, 1.99m)
+                new Flower { Id = 1, Name = "Rose", CategoryId = 1, Price = 2.99m },
+                new Flower { Id = 2, Name = "Tulip", CategoryId = 1, Price = 1.99m }
             );
             context.SaveChanges();
             // ACT
@@ -42,7 +42,7 @@ namespace FlowerShop.Tests
             using var context = new ApplicationDbContext(options);
             var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<FlowerService>();
             var service = new FlowerService(context, logger);
-            var newFlower = new Flower(1, "Daisy", 1, 0.99m);
+            var newFlower = new Flower { Id = 1, Name = "Daisy", CategoryId = 1, Price = 0.99m };
             // ACT
             var createdFlower = await service.CreateFlowerAsync(newFlower);
             // ASSERT
@@ -61,7 +61,7 @@ namespace FlowerShop.Tests
             using var context = new ApplicationDbContext(options);
             var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<FlowerService>();
             var service = new FlowerService(context, logger);
-            context.Flowers.Add(new Flower(1, "Lily", 1, 1.49m));
+            context.Flowers.Add(new Flower{ Id = 1, Name = "Lily", CategoryId = 1, Price = 1.49m });
             context.SaveChanges();
             // ACT
             var result = await service.DeleteFlowerAsync(1);
@@ -80,8 +80,10 @@ namespace FlowerShop.Tests
             using var context = new ApplicationDbContext(options);
             var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<FlowerService>();
             var service = new FlowerService(context, logger);
-            context.Flowers.Add(new Flower(1, "Orchid", 1, 3.99m));
-            context.Flowers.Add(new Flower(2, "Orchid2", 1, 3.99m));
+            var newFlower = new Flower { Id = 1, Name = "Orchid", CategoryId = 1, Price = 3.99m };
+            var newFlower2 = new Flower { Id = 2, Name = "Orchid2", CategoryId = 1, Price = 4.99m };
+            context.Flowers.Add(newFlower);
+            context.Flowers.Add(newFlower2);
             context.SaveChanges();
             // ACT
             var result = await service.GetFlowerByIdAsync(1);
@@ -116,7 +118,7 @@ namespace FlowerShop.Tests
             using var context = new ApplicationDbContext(options);
             var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<FlowerService>();
             var service = new FlowerService(context, logger);
-            var flower = new Flower(1, "Sunflower", 1, 1.29m);
+            var flower = new Flower{ Id = 1, Name = "Sunflower", CategoryId = 1, Price = 1.29m };
             context.Flowers.Add(flower);
             context.SaveChanges();
             // ACT
