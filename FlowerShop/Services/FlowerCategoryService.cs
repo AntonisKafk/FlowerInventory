@@ -109,5 +109,6 @@ namespace FlowerShop.Services
                 _logger.LogError(ex, "Error updating flower category with ID {CategoryId}", category.Id);
                 throw;
             }
+        }
     }
 }

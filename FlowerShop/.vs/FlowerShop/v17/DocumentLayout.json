@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\tests\\flowerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:tests\\flowerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\tests\\applicationdbcontexttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:tests\\applicationdbcontexttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\tests\\flowercategoryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:tests\\flowercategoryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\interfaces\\iflowerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:interfaces\\iflowerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\services\\flowercategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:services\\flowercategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\services\\flowerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:services\\flowerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\services\\flowercategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:services\\flowercategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\interfaces\\iflowerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:interfaces\\iflowerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IFlowerService.cs",
               "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Interfaces\\IFlowerService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IFlowerService.cs",
               "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Interfaces\\IFlowerService.cs",
               "RelativeToolTip": "Interfaces\\IFlowerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T17:30:32.148Z",
               "IsPinned": true,
@@ -52,20 +64,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "FlowerCategoryServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Tests\\FlowerCategoryServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\FlowerCategoryServiceTests.cs",
+              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Tests\\FlowerCategoryServiceTests.cs",
+              "RelativeToolTip": "Tests\\FlowerCategoryServiceTests.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAqwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T11:54:22.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContextTests.cs",
+              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Tests\\ApplicationDbContextTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ApplicationDbContextTests.cs",
+              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Tests\\ApplicationDbContextTests.cs",
+              "RelativeToolTip": "Tests\\ApplicationDbContextTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T10:59:53.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FlowerServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Tests\\FlowerServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\FlowerServiceTests.cs",
+              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Tests\\FlowerServiceTests.cs",
+              "RelativeToolTip": "Tests\\FlowerServiceTests.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T10:53:28.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FlowerCategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Services\\FlowerCategoryService.cs",
               "RelativeDocumentMoniker": "Services\\FlowerCategoryService.cs",
               "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Services\\FlowerCategoryService.cs",
               "RelativeToolTip": "Services\\FlowerCategoryService.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAqwFoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAApwFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T19:51:29.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -73,12 +124,11 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T18:03:47.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T18:03:47.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "FlowerService.cs",
               "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Services\\FlowerService.cs",
               "RelativeDocumentMoniker": "Services\\FlowerService.cs",
@@ -86,12 +136,11 @@
               "RelativeToolTip": "Services\\FlowerService.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAwwA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T17:48:28.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T17:48:28.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "FlowerCategory.cs",
               "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Models\\FlowerCategory.cs",
               "RelativeDocumentMoniker": "Models\\FlowerCategory.cs",
@@ -99,12 +148,11 @@
               "RelativeToolTip": "Models\\FlowerCategory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T17:39:07.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T17:39:07.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Flower.cs",
               "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Models\\Flower.cs",
               "RelativeDocumentMoniker": "Models\\Flower.cs",
