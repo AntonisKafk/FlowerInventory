@@ -10,11 +10,28 @@
     </div>
 
     @if (Model.Flowers != null && Model.Flowers.Any())
-    {
-        <div class="row justify-content-center">
+    {      
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-6">
+                <input type="text" id="searchBox" class="form-control" placeholder="Search flowers by name...">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-12 d-flex justify-content-end">
+                <button id="sortButton" class="btn btn-primary"></button>
+            </div>
+        </div>
+
+        <p id="noResultsMessage" class="text-center text-muted" style="display:none;">
+            No flowers match your search.
+        </p>
+
+
+        <div class="row justify-content-center" id="flowerCards">
             @foreach (var flower in Model.Flowers)
             {
-                <div class="col-md-6 col-lg-4 mb-3">
+                <div class="col-md-6 col-lg-4 mb-3 flower-card">
                     <div class="card shadow-sm h-100">
                         <div class="card-body">
                             <div class="d-flex justify-content-end mb-2">
@@ -37,9 +54,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Delete Modal -->
-
             }
         </div>
 
@@ -58,3 +72,68 @@
         </div>
     }
 </div>
+
+<script>
+    const searchBox = document.getElementById("searchBox");
+    const cards = document.querySelectorAll(".flower-card");
+    const noResults = document.getElementById('noResultsMessage');
+    const sortButton = document.getElementById('sortButton');
+    const flowerCardsContainer = document.getElementById('flowerCards');
+
+
+    let isAscending = true;
+
+    searchBox.addEventListener("input", function () {
+        const query = this.value.toLowerCase();
+        filterCards(query);
+    });
+
+    sortButton.addEventListener("click", function () {
+        isAscending = !isAscending;
+        updateSortButton();
+        sortCards();
+    });
+
+
+    function filterCards(query = ''){
+        let visibleCount = 0;
+
+        cards.forEach(card => {
+            const name = card.querySelector(".card-title").textContent.toLowerCase();
+            const isVisible = name.includes(query);
+            card.style.display = isVisible ? "" : "none";
+            if (isVisible) visibleCount++;
+        });
+
+        noResults.style.display = visibleCount === 0 ? "block" : "none";
+    }
+
+    function sortCards(){
+        const visibleCards = Array.from(cards).filter(card =>
+            card.style.display !== 'none'
+        );
+
+        visibleCards.sort((a, b) => {
+            const nameA = a.querySelector(".card-title").textContent.toLowerCase();
+            const nameB = b.querySelector(".card-title").textContent.toLowerCase();
+
+            return isAscending ? nameA.localeCompare(nameB) : nameB.localeCompare(nameA);
+        });
+
+        // Reorder in DOM
+        visibleCards.forEach(card => {
+            flowerCardsContainer.appendChild(card);
+        });
+    }
+
+    function updateSortButton() {
+        if (isAscending) {
+            sortButton.innerHTML = '<i class="bi bi-sort-alpha-down"></i> Sort Z-A';
+        } else {
+            sortButton.innerHTML = '<i class="bi bi-sort-alpha-down-alt"></i> Sort A-Z';
+        }
+    }
+
+    updateSortButton()
+</script>
+
