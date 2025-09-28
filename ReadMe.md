@@ -3,6 +3,16 @@
 ## Overview
 This project is a full-stack web application that allows users to manage flowers and categories in a flower shop. Users can view, add, edit, and delete flowers and categories, as well as search and sort flowers efficiently.
 
+## Component Interaction
+The application follows a standard full-stack flow: the SQL Server database stores flowers and categories, accessed and manipulated through the backend service layer using ApplicationDbContext. The backend handles all CRUD operations, validation, and business logic, while the frontend Razor Pages render the data, manage user interactions, and provide features like search and sort. Frontend changes are sent to the backend, which updates the database accordingly.
+
+---
+
+## Setup Instructions
+1. Clone repository
+2. Run `database_setup.sql` from Database folder
+3. Build project and run
+
 ---
 
 ## Features Summary
@@ -25,11 +35,6 @@ This project is a full-stack web application that allows users to manage flowers
 - Search & Sort: client-side search by flower name and ascending/descending sort.
 ---
 
-## Setup Instructions
-1. Clone repository
-2. Run `database_setup.sql` from Database folder
-3. Build project and run
-
 ## Assumptions and Design Choices
 - Used `CategoryId` as a foreign key in the Flowers table to establish a one-to-many relationship between `Categories` and `Flowers`.
 - Used `ApplicationDbContext` as the Entity Framework Core context to interact with the SQL Server database.
@@ -45,6 +50,6 @@ This project is a full-stack web application that allows users to manage flowers
 
 ## Technologies Used
 - **Database**: SQL Server (preinstalled with Visual Studio)
-- **Backend**: .NET 8 Web App with Razor Pages
+- **Backend**: .NET 8 Web App with Razor Pages using Entity Framework Core
 - **Frontend**: Javascript, HTML5, Bootstrap 5 for responsive design
 - **Testing**: NUnit for unit testing
