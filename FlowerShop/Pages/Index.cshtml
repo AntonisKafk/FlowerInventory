@@ -32,7 +32,8 @@
                             <div class="text-center">
                                 <h5 class="card-title">@category.Name</h5>
                                 <p class="card-text text-muted">View all flowers in this category</p>
-                                <a href="/Flowers?categoryId=@category.Id" class="btn btn-outline-primary">
+                                <a href="/Flowers?categoryId=@category.Id&categoryName=@Uri.EscapeDataString(category.Name)"
+                                   class="btn btn-outline-primary">
                                     View Flowers
                                 </a>
                             </div> 
@@ -60,7 +61,7 @@
         <div class="alert alert-info text-center">
             <h5>No categories found</h5>
             <p>Start by adding some categories and flowers to your inventory.</p>
-            <a href="/Flowers/Create" class="btn btn-primary">Add First Flower</a>
+            <a href="/ManageCategory" class="btn btn-primary">Add First Flower</a>
         </div>
     }
 </div>

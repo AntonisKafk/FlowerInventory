@@ -1,0 +1,60 @@
+﻿@page
+@model FlowerShop.Pages.FlowersModel
+@{
+    ViewData["Title"] = Model.PageTitle;
+}
+
+<div class="container mt-4">
+    <div class="text-center mb-4">
+        <h1 class="text-primary">@Model.PageTitle</h1>
+    </div>
+
+    @if (Model.Flowers != null && Model.Flowers.Any())
+    {
+        <div class="row justify-content-center">
+            @foreach (var flower in Model.Flowers)
+            {
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-end mb-2">
+                                <a href="/ManageFlower/@flower.Id" class="btn btn-sm btn-outline-secondary me-1">
+                                    Edit
+                                </a>
+                                <a href="?handler=DeleteFlower&id=@flower.Id"
+                                   class="btn btn-sm btn-outline-danger ms-1"
+                                   onclick="return confirm('Are you sure you want to delete @(flower.Name)?')">
+                                    Delete
+                                </a>
+                            </div>
+                            <div class="text-center">
+                                <h5 class="card-title">@flower.Name</h5>
+                                <p class="card-text text-muted">Click below for full details</p>
+                                <a href="/FlowerDetails?id=@flower.Id" class="btn btn-outline-primary">
+                                    Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Delete Modal -->
+
+            }
+        </div>
+
+        <div class="text-center mb-4">
+            <a href="/ManageFlower?categoryId=@Model.CurrentCategoryId" class="btn btn-success">
+                <i class="bi bi-plus-circle"></i> Add New Flower
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info text-center">
+            <h5>No flowers found</h5>
+            <p>Start by adding some flowers to your inventory.</p>
+            <a href="/ManageFlower?categoryId=@Model.CurrentCategoryId" class="btn btn-primary">Add First Flower</a>
+        </div>
+    }
+</div>

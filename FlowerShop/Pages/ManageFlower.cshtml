@@ -1,0 +1,53 @@
+﻿@page "{id:int?}"
+@model FlowerShop.Pages.ManageFlowerModel
+@{
+    ViewData["Title"] = Model.Flower.Id == 0 ? "Add New Flower" : "Edit Flower";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="mb-0">@ViewData["Title"]</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="Flower.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Flower.Name" class="form-label">Flower Name</label>
+                            <input asp-for="Flower.Name" class="form-control" />
+                            <span asp-validation-for="Flower.Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Flower.Price" class="form-label">Price</label>
+                            <input asp-for="Flower.Price" type="number" step="0.01" class="form-control" />
+                            <span asp-validation-for="Flower.Price" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Flower.CategoryId" class="form-label">Category</label>
+                            <select asp-for="Flower.CategoryId" asp-items="Model.FlowerCategories" class="form-select">
+                                <option value="">-- Select Category --</option>
+                            </select>
+                            <span asp-validation-for="Flower.CategoryId" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">
+                                @(Model.Flower.Id == 0 ? "Create Flower" : "Update Flower")
+                            </button>
+                            <a href="#" onclick="window.history.back(); return false;" class="btn btn-outline-secondary">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

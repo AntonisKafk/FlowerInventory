@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\pages\\flowers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:pages\\flowers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\pages\\flowers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:pages\\flowers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\pages\\manageflower.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:pages\\manageflower.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\pages\\managecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:pages\\managecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\pages\\managecategory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:pages\\managecategory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\services\\flowercategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:services\\flowercategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\models\\flowercategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:models\\flowercategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|c:\\users\\athony\\desktop\\projects\\flowerinventory\\flowershop\\pages\\manageflower.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C8C2978-9895-4287-AEF4-8143451F3E4A}|FlowerShop.csproj|solutionrelative:pages\\manageflower.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Flowers.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\Flowers.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Flowers.cshtml.cs",
+              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\Flowers.cshtml.cs",
+              "RelativeToolTip": "Pages\\Flowers.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T19:31:09.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T19:24:03.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-27T19:23:59.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FlowerCategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Services\\FlowerCategoryService.cs",
-              "RelativeDocumentMoniker": "Services\\FlowerCategoryService.cs",
-              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Services\\FlowerCategoryService.cs",
-              "RelativeToolTip": "Services\\FlowerCategoryService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAxwCYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T19:22:29.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FlowerCategory.cs",
-              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Models\\FlowerCategory.cs",
-              "RelativeDocumentMoniker": "Models\\FlowerCategory.cs",
-              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Models\\FlowerCategory.cs",
-              "RelativeToolTip": "Models\\FlowerCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T18:54:32.45Z",
+              "WhenOpened": "2025-09-27T21:41:16.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ManageCategory.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\ManageCategory.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\ManageCategory.cshtml.cs",
-              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\ManageCategory.cshtml.cs",
-              "RelativeToolTip": "Pages\\ManageCategory.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T18:48:35.023Z",
+              "Title": "Flowers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\Flowers.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Flowers.cshtml",
+              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\Flowers.cshtml",
+              "RelativeToolTip": "Pages\\Flowers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T21:41:09.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ManageCategory.cshtml",
               "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\ManageCategory.cshtml",
               "RelativeDocumentMoniker": "Pages\\ManageCategory.cshtml",
               "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\ManageCategory.cshtml",
               "RelativeToolTip": "Pages\\ManageCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-27T18:42:09.447Z",
+              "WhenOpened": "2025-09-27T21:25:51.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageFlower.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\ManageFlower.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\ManageFlower.cshtml.cs",
+              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\ManageFlower.cshtml.cs",
+              "RelativeToolTip": "Pages\\ManageFlower.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T21:08:53.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageFlower.cshtml",
+              "DocumentMoniker": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\ManageFlower.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ManageFlower.cshtml",
+              "ToolTip": "C:\\Users\\Athony\\Desktop\\projects\\FlowerInventory\\FlowerShop\\Pages\\ManageFlower.cshtml",
+              "RelativeToolTip": "Pages\\ManageFlower.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T21:08:45.073Z",
               "EditorCaption": ""
             }
           ]
